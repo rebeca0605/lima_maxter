@@ -14,26 +14,26 @@
 </head>
 
 <body class="bg-[#1B1B1B] relative min-h-screen overflow-hidden">
-    <img class="absolute right-0 top-0 h-full object-contain z-[-10]" src="./img/background_image3.png"
-        alt="Imagem de fundo" />
+    <img class="block lg:hidden absolute right-0 top-0 h-full object-contain z-[-10]" src="./img/background_image4.png" alt="Imagem de fundo mobile"/>
+    <img class="block xl:hidden absolute right-0 top-0 h-full object-contain z-[-10]" src="./img/background_image2.png" alt="Imagem de fundo tablet">
     <header>
-        <img class="top-0 left-0 w-[113px] h-[45px]" src="./img/Logo.png" alt="">
-        <ul class="flex justify-center gap-[15px] -m-[35px] -mr-[100px]">
+        <img class="top-0 left-0 w-[113px] h-[45px] lg:w-[271px] lg:h-[109px]" src="./img/Logo.png" alt="">
+        <ul class="absolute flex justify-center align-center gap-[5px] ml-[160px] -mt-[37px] lg:ml-[750px] lg:-mt-[75px]">
             <li>
-                <img class="h-[30px]" src="./img/user.svg" alt="">
+                <img class="h-[30px] lg:h-[45px]" src="./img/user.svg" alt="">
             </li>
             <li>
-                <img class="h-[23px]" src="./img/heart.svg" alt="">
+                <img class="h-[23px] lg:h-[40px]" src="./img/heart.svg" alt="">
             </li>
             <li>
-                <img class="h-[30px]" src="./img/carrinho.svg" alt="">
+                <img class="h-[30px] lg:h-[45px]" src="./img/carrinho.svg" alt="">
             </li>
         </ul>
-        <img class="h-[15px] m-[10px] ml-[285px]" src="./img/menu.svg" alt="">
-        <div class="flex justify-center relative w-full mt-10 relative w-[404px]">
+        <img class="absolute h-[15px] -mt-[30px] ml-[290px] lg:h-[25px] lg:ml-[955px] lg:-mt-[63px]" src="./img/menu.svg" alt="">
+        <div class="absolute flex justify-center relative w-full mt-5 relative lg:w-[404px] lg:-mt-[60px] lg:ml-[310px]">
             <input type="text" placeholder="Suche"
-                class="w-[297px] h-[37px] bg-[#131313] border-2 border-[#353434] rounded-full shadow-sm font-bold text-[#878787] pl-10 text-lg">
-            <div class="absolute inset-y-0 left-0 flex items-center pl-2 pointer-events-none -mt-1 ml-[15px]">
+                class="absolute w-[297px] h-[37px] bg-[#131313] border-2 border-[#353434] rounded-full shadow-sm font-bold text-[#878787] pl-10 text-lg -mt-[17px] lg:w-[424px] lg:h-[50px]">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-2 pointer-events-none mt-[2px] ml-[15px] lg:mt-[8px] lg:-ml-[2px]">
                 <svg class="h-5 w-5 text-[#878787]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -42,31 +42,31 @@
         </div>
     </header>
     <main class="relative">
-        <h1 class="flex justify-center text-white font-bold text-[25px] mt-[20px] font-inter">
+        <h1 class="flex text-white font-bold text-[25px] mt-[20px] ml-[15px] font-inter lg:text-[55px] lg:ml-[50px] lg:mt-[130px]">
             MAXTER 7.1 SURROUND
         </h1>
-        <div class="absolute bg-[#CF052D] w-[174px] h-[7px] ml-[15px] -mt-[5px]"></div>
-        <div class="ml-[15px] mt-[10px] w-[85px]">
+        <div class="absolute bg-[#CF052D] w-[174px] h-[7px] ml-[15px] -mt-[5px] lg:w-[407px] lg:h-[16px] lg:ml-[50px] lg:-mt-[15px]"></div>
+        <div class="ml-[15px] mt-[10px] w-[85px] lg:ml-[50px]">
             <img src="./img/review.svg" alt="">
         </div>
-        <p class="text-[#828282] text-[14px] ml-[105px] -mt-[18px] font-inter">
+        <p class="text-[#828282] text-[14px] ml-[105px] -mt-[18px] font-inter lg:ml-[140px]">
             (11.893 Bewertungen)
         </p>
-        <p class="text-wrap text-white text-[14px] font-regular ml-[15px] mt-[10px]">
-            Bester 7.1-Surround-Sound und tiefe Bässe ganz ohne große Alange - das MAXTER 7.1 Surround USB Gaming
+        <p class="text-wrap text-white text-[14px] font-regular ml-[15px] mt-[10px] lg:text-[20px] lg:ml-[50px]">
+            Bester 7.1-Surround-Sound und tiefe Bässe ganz ohne große Alange - <br> das MAXTER 7.1 Surround USB Gaming
             Headset für den PC
-            match es moglich.
-        <div class="absolute w-[315px] "> <img src="./img/Headset.png" alt="">
+            match es <br> moglich.
+            <div class="block lg:hidden absolute w-[315px]"> <img src="./img/Headset.png" alt="">
         </div>
-        <ul class="absolute flex justify-center gap-[15px] ml-[45px] top-[560px]">
+        <ul class="absolute flex justify-center gap-[15px] ml-[45px] top-[560px] lg:ml-[820px] lg:flex-col lg:-mt-[220px]">
             <li>
-                <img class="shadow-lg shadow-[rgba(207,5,45,0.3)]" src="./img/quadrado1.png" alt="">
+                <img class="shadow-lg shadow-[rgba(207,5,45,0.3)] lg:h-[120px]" src="./img/quadrado1.png" alt="">
             </li>
             <li>
-                <img class="h-[68px]" src="./img/quadrado2.png" alt="">
+                <img class="h-[68px] lg:h-[120px]" src="./img/quadrado2.png" alt="">
             </li>
             <li>
-                <img class="h-[68px]" src="./img/quadrado3.png" alt="">
+                <img class="h-[68px] lg:h-[120px]" src="./img/quadrado3.png" alt="">
             </li>
         </ul>
         <h2 class="text-[#CF052D] font-bold text-[45px] ml-[15px] mt-[480px] font-inter">
@@ -92,11 +92,11 @@
             Auf die Wunschliste
         </p>
         <div class="absolute bg-white w-[140px] h-[2px] mt-[80px] ml-[15px]"></div>
-        <div class="absolute top-0 right-0 -mt-[180px] mr-[450px]"> <img src="./img/Headset.png" alt="">
+        <div class="absolute top-0 right-0 -mt-[180px] mr-[450px] lg:mt-[180px]"> <img src="./img/Headset.png" alt="">
         </div>
     </main>
     <footer>
-         <ul class="absolute text-[#828282] text-[10px] font-inter ml-[15px] mt-[120px] font-bold ">
+        <ul class="absolute text-[#828282] text-[10px] font-inter ml-[15px] mt-[120px] font-bold ">
             <li>
                 Highlights
             </li>
@@ -117,7 +117,7 @@
             </li>
         </ul>
         <div class="absolute bg-[#CF052D] w-[80px] h-[2px] ml-[15px] mt-[148px]"></div>
-         <img class=" absolute h-[23px] right-[10px] bottom-[10px]" src="./img/Scrolldown.svg" alt="">
+        <img class=" absolute h-[23px] right-[10px] bottom-[10px]" src="./img/Scrolldown.svg" alt="">
     </footer>
     <script>
         tailwind.config = {
@@ -131,4 +131,5 @@
         }
     </script>
 </body>
+
 </html>
