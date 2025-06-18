@@ -23,13 +23,13 @@ Não há necessidade de configurações de servidor adicionais; basta abrir o ar
 
 ### Capturas de Tela das Versões
 #### Desktop: Largura de 1920px.
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/a889f03f-2cae-4bc5-9303-ae4d52ad838f)
 
 #### Tablet: Largura de 1024px.
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/724dc3c2-4dad-485e-ab2d-1ea14039fafe)
 
 #### Mobile: Largura de 320px.
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/285ece47-a5f1-4ede-9aca-bfbf8dc3d25f)
 
 ### Ferramentas Utilizadas:
 - HTML
